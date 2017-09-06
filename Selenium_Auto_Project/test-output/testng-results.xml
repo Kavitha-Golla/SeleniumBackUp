@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="33" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataValidation" duration-ms="313130" started-at="2017-09-06T02:19:59Z" finished-at="2017-09-06T02:25:12Z">
+    <groups>
+    </groups>
+    <test name="EDJ_StandardBatchProcessing" duration-ms="167449" started-at="2017-09-06T02:19:59Z" finished-at="2017-09-06T02:22:47Z">
+      <class name="scripts.Maxit.DataValidation_Flow">
+        <test-method status="PASS" signature="BaseMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" name="BaseMethod" is-config="true" duration-ms="7639" started-at="2017-09-05T22:19:59Z" description="BaseClass: Login_Method" finished-at="2017-09-05T22:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EDJ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StandardBasicProcessing_DataValidation]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c0a50da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseMethod -->
+        <test-method status="PASS" signature="PreReq_CheckPoint()[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" name="PreReq_CheckPoint" duration-ms="4" started-at="2017-09-05T22:20:07Z" description="PreReq_CheckPoint Method- to Verify Login/Input data config Success status" finished-at="2017-09-05T22:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreReq_CheckPoint -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="21232" finished-at="2017-09-05T22:20:28Z" started-at="2017-09-05T22:20:07Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345370860]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4bcff2cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="21156" finished-at="2017-09-05T22:20:49Z" started-at="2017-09-05T22:20:28Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[464287200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@41f0cdc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="20654" finished-at="2017-09-05T22:21:10Z" started-at="2017-09-05T22:20:49Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[922031307]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2c98f747]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="20543" finished-at="2017-09-05T22:21:31Z" started-at="2017-09-05T22:21:10Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[487836108]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6cc3897d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="19239" finished-at="2017-09-05T22:21:50Z" started-at="2017-09-05T22:21:31Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W7KOC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@582e5fbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="19057" finished-at="2017-09-05T22:22:09Z" started-at="2017-09-05T22:21:50Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347WDXUP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1f774ff2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="19067" finished-at="2017-09-05T22:22:28Z" started-at="2017-09-05T22:22:09Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W1KUC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@74beb194]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" status="PASS" duration-ms="18723" finished-at="2017-09-05T22:22:47Z" started-at="2017-09-05T22:22:28Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27300001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W8TJP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4c6561f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:scripts.Maxit.DataValidation_Flow@23bb8443]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-05T22:22:47Z" finished-at="2017-09-05T22:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c0a50da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.Maxit.DataValidation_Flow -->
+    </test> <!-- EDJ_StandardBatchProcessing -->
+    <test name="MSC_StandardBatchProcessing" duration-ms="313130" started-at="2017-09-06T02:19:59Z" finished-at="2017-09-06T02:25:12Z">
+      <class name="scripts.Maxit.DataValidation_Flow">
+        <test-method status="PASS" signature="BaseMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" name="BaseMethod" is-config="true" duration-ms="10165" started-at="2017-09-05T22:19:59Z" description="BaseClass: Login_Method" finished-at="2017-09-05T22:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MSC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StandardBasicProcessing_DataValidation]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@646be2c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseMethod -->
+        <test-method status="PASS" signature="PreReq_CheckPoint()[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" name="PreReq_CheckPoint" duration-ms="3" started-at="2017-09-05T22:20:09Z" description="PreReq_CheckPoint Method- to Verify Login/Input data config Success status" finished-at="2017-09-05T22:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreReq_CheckPoint -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="20385" finished-at="2017-09-05T22:20:30Z" started-at="2017-09-05T22:20:09Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345370860]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6004f3a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="20496" finished-at="2017-09-05T22:20:50Z" started-at="2017-09-05T22:20:30Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[464287200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4cb4580b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="20476" finished-at="2017-09-05T22:21:11Z" started-at="2017-09-05T22:20:50Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[922031307]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@31488841]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="20441" finished-at="2017-09-05T22:21:31Z" started-at="2017-09-05T22:21:11Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[487836108]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@77b18417]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18997" finished-at="2017-09-05T22:21:50Z" started-at="2017-09-05T22:21:31Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W7KOC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@306fc084]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="19020" finished-at="2017-09-05T22:22:09Z" started-at="2017-09-05T22:21:50Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347WDXUP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5e75a282]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="19479" finished-at="2017-09-05T22:22:29Z" started-at="2017-09-05T22:22:09Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W1KUC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2b8a338d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="Ledger" signature="Ledger(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18671" finished-at="2017-09-05T22:22:47Z" started-at="2017-09-05T22:22:29Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="Ledger" description="Ledger">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ledger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W8TJP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost;Adj. Qty;Adj. Cost;Transaction type]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@50609bd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ledger -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18606" finished-at="2017-09-05T22:23:06Z" started-at="2017-09-05T22:22:47Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345370860]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1ec51abf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18307" finished-at="2017-09-05T22:23:24Z" started-at="2017-09-05T22:23:06Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[464287200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6dd7da57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18247" finished-at="2017-09-05T22:23:42Z" started-at="2017-09-05T22:23:24Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[922031307]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@17bb8a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="18586" finished-at="2017-09-05T22:24:01Z" started-at="2017-09-05T22:23:42Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[487836108]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@43510538]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="17911" finished-at="2017-09-05T22:24:19Z" started-at="2017-09-05T22:24:01Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W7KOC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@75f7ef0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="17830" finished-at="2017-09-05T22:24:37Z" started-at="2017-09-05T22:24:19Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347WDXUP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@26a18684]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="17655" finished-at="2017-09-05T22:24:54Z" started-at="2017-09-05T22:24:37Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W1KUC]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6d003a39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method name="RawTrades" signature="RawTrades(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, [Ljava.lang.String;)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" status="PASS" duration-ms="17829" finished-at="2017-09-05T22:25:12Z" started-at="2017-09-05T22:24:54Z" depends-on-methods="scripts.Maxit.BaseClass.PreReq_CheckPoint" data-provider="RawTrades" description="Raw Trades">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raw Trades]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20866449]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CUSIP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[74347W8TJP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Event;Date;Qty;Cost/Proceeds]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[[Ljava.lang.String;@26338a64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RawTrades -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:scripts.Maxit.DataValidation_Flow@799d4f69]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-05T22:25:12Z" finished-at="2017-09-05T22:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@646be2c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.Maxit.DataValidation_Flow -->
+    </test> <!-- MSC_StandardBatchProcessing -->
+  </suite> <!-- DataValidation -->
+</testng-results>

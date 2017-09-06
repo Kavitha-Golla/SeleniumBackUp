@@ -1,0 +1,18 @@
+2017-09-05 22:20:02 INFO  Login:67 - URL for client: EDJ is https://edj.admin.maxit.vm.developers.qas.scivan.com/Modules/Login/login.php
+ 
+2017-09-05 22:20:03 INFO  Login:67 - URL for client: MSC is https://msc.admin.maxit.vm.developers.qas.scivan.com/Modules/Login/login.php
+ 
+2017-09-05 22:20:05 INFO  Login:127 - Logging into Maxit client(NonSSO):EDJ;LoginID:edjuser1;Password:user1pwd
+ 
+2017-09-05 22:20:07 INFO  ConfigInputFile:37 - Setting Input data Config File, Path - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\EDJ\edj_StandardBasicProcessing_DataValidation.xls
+ 
+2017-09-05 22:20:07 INFO  ConfigInputFile:37 - Setting Input data Config File, Path - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\EDJ\edj_StandardBasicProcessing_DataValidation.xls
+ 
+2017-09-05 22:20:07 INFO  Login:127 - Logging into Maxit client(NonSSO):MSC;LoginID:mscadmin;Password:adminpwd
+ 
+2017-09-05 22:20:09 INFO  ConfigInputFile:37 - Setting Input data Config File, Path - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\MSC\msc_StandardBasicProcessing_DataValidation.xls
+ 
+2017-09-05 22:20:09 INFO  ConfigInputFile:37 - Setting Input data Config File, Path - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\MSC\msc_StandardBasicProcessing_DataValidation.xls
+ 
+2017-09-05 22:22:47 INFO  ConfigInputFile:37 - Setting Input data Config File, Path - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\MSC\msc_StandardBasicProcessing_DataValidation.xls
+ 

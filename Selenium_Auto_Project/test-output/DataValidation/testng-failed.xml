@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [DataValidation]" parallel="tests">
+  <parameter name="DataVal_Pages" value="Ledger;Realized;Unrealized"/>
+  <test name="MSC_StandardBatchProcessing(failed)" parallel="tests">
+    <parameter name="environment" value="QA"/>
+    <parameter name="dataTableName" value="StandardBasicProcessing_DataValidation"/>
+    <parameter name="clientName" value="MSC"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="scriptName" value="StandardBasicProcessing_DataValidation"/>
+    <parameter name="productName" value="Maxit"/>
+    <classes>
+      <class name="scripts.Maxit.DataValidation_Flow">
+        <methods>
+          <include name="Ledger" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="PreReq_CheckPoint"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="RawTrades" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="BaseMethod"/>
+          <include name="BaseMethod"/>
+        </methods>
+      </class> <!-- scripts.Maxit.DataValidation_Flow -->
+    </classes>
+  </test> <!-- MSC_StandardBatchProcessing(failed) -->
+</suite> <!-- Failed suite [DataValidation] -->

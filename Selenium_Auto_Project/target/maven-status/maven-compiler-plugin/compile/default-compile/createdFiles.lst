@@ -1,0 +1,3 @@
+PageObjects\Maxit\HomePage.class
+functionalLibrary\Global\ManageDriver.class
+functionalLibrary\Global\DataTable.class

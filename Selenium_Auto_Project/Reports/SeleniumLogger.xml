@@ -1,0 +1,100 @@
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207589323" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - This is @BeforeSuite annotation]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="26"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207589327" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider Browser = firefox]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="28"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207589328" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider client = STR]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="29"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207589328" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider Envi = QA]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="30"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207608483" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - fnTest: This is @TEST annotation inside fnTestMethod1]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="45"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207608579" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - fnTest: Callling the ConfigInputFile fn]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="46"/>
+</log4j:event>
+
+<log4j:event logger="functionalLibrary.Maxit.configInputFile" timestamp="1501207608662" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Inside Method: getInputFIlePath - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls]]></log4j:message>
+<log4j:locationInfo class="functionalLibrary.Maxit.configInputFile" method="getInputFIlePath" file="configInputFile.java" line="25"/>
+</log4j:event>
+
+<log4j:event logger="functionalLibrary.Global.CommonUtils" timestamp="1501207608745" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[File C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls exists in the directory.]]></log4j:message>
+<log4j:locationInfo class="functionalLibrary.Global.CommonUtils" method="fileExists" file="CommonUtils.java" line="81"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207608826" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Excel Path is :C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207608914" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[This is @AfterTest annotation]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="afterTest" file="DataValidation_Flow.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207609026" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - This is @BeforeSuite annotation]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="26"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207609110" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider Browser = chrome]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="28"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207609191" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider client = STR]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="29"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207609281" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Dataprovider Envi = QA]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="UI_Login" file="DataValidation_Flow.java" line="30"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207611595" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - fnTest: This is @TEST annotation inside fnTestMethod1]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="45"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207611671" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Thread ID:12 - fnTest: Callling the ConfigInputFile fn]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="46"/>
+</log4j:event>
+
+<log4j:event logger="functionalLibrary.Maxit.configInputFile" timestamp="1501207611746" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Inside Method: getInputFIlePath - C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls]]></log4j:message>
+<log4j:locationInfo class="functionalLibrary.Maxit.configInputFile" method="getInputFIlePath" file="configInputFile.java" line="25"/>
+</log4j:event>
+
+<log4j:event logger="functionalLibrary.Global.CommonUtils" timestamp="1501207611819" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[File C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls exists in the directory.]]></log4j:message>
+<log4j:locationInfo class="functionalLibrary.Global.CommonUtils" method="fileExists" file="CommonUtils.java" line="81"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207611897" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[Excel Path is :C:\SVN_Automation_New\Trunk\Maxit\Admin\QTP_BetaVersion\00_Data Table\QA_Site\STR\str_StepUp_Update_DataValidation.xls]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="fnTest" file="DataValidation_Flow.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="scripts.Maxit.DataValidation_Flow" timestamp="1501207611975" level="INFO" thread="TestNG">
+<log4j:message><![CDATA[This is @AfterTest annotation]]></log4j:message>
+<log4j:locationInfo class="scripts.Maxit.DataValidation_Flow" method="afterTest" file="DataValidation_Flow.java" line="77"/>
+</log4j:event>
+

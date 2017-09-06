@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  <suite name="MySuite"> -->
+<suite name="DataValidation" parallel= "tests" thread-count="2" > 
+	<parameter name="DataVal_Pages" value="Ledger;Realized;Unrealized"></parameter> 
+
+	<test name="MSC_StandardBatchProcessing">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="clientName" value="MSC"></parameter>
+		<parameter name="environment" value="QA"></parameter>
+		<parameter name="productName" value="Maxit"></parameter>
+		<parameter name="scriptName" value="StandardBasicProcessing_DataValidation"></parameter>
+		<parameter name="dataTableName" value="StandardBasicProcessing_DataValidation"></parameter>		
+		<classes>
+			<class name="scripts.Maxit.DataValidation_Flow">
+				<methods>
+					<include name="PreReq_CheckPoint" />
+					<include name="Ledger" />
+					<include name="RawTrades" />
+					<exclude name="Realized" />
+					<exclude name="Unrealized" />
+					<exclude name="OpenClosed" />									
+				</methods>	
+			</class>			
+		</classes>
+	</test>
+	
+	<test name="EDJ_StandardBatchProcessing">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="clientName" value="EDJ"></parameter>
+		<parameter name="environment" value="QA"></parameter>
+		<parameter name="productName" value="Maxit"></parameter>
+		<parameter name="scriptName" value="StandardBasicProcessing_DataValidation"></parameter>
+		<parameter name="dataTableName" value="StandardBasicProcessing_DataValidation"></parameter>		
+		<classes>
+			<class name="scripts.Maxit.DataValidation_Flow">
+				<methods>
+					<include name="PreReq_CheckPoint" />
+					<include name="Ledger" />
+					<exclude name="RawTrades" />
+					<exclude name="Realized" />
+					<exclude name="Unrealized" />
+					<exclude name="OpenClosed" />									
+				</methods>	
+			</class>			
+		</classes>
+	</test>
+
+  
+</suite> <!-- Suite -->
